@@ -18,7 +18,7 @@ public class Main {
         List<Integer> list = new ArrayList<>();
         int simvol;
         System.out.print("Вот случайный список: ");
-        for(int i = 0; i < len; i++){
+        for (int i = 0; i < len; i++) {
             simvol = random.nextInt(max);
             System.out.print(simvol + " ");
             list.add(simvol);
